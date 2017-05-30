@@ -5,7 +5,7 @@
         A sample Apache Cordova application that store contacts on WebSphere Liberty and cloudantNoSQLDB Bluemix services.
     </description>
     <author email=" iic_paris@fr.ibm.com" href="http://ibm.biz/iicparis">
-        IIC/BPSH Team (baudelaine)
+        IIC/BPSH Paris Team (baudelaine)
     </author>
     <icon src="res/bluemix-logo.png" />	
     <content src="index.html" />
