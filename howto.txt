@@ -1,0 +1,26 @@
+//apk url are hardcoded 
+//So there is one apk for each Bluemix data center
+//Only one apk can be install at a time on the same device
+
+//2 solutions:
+
+//1- Use a app store to store all apk and install the good one on demand
+ 
+//2- Store all apk on a local computer connected to the android device via usb and install the good one via adb
+
+//Install and learn about adb here:
+https://developer.android.com/studio/command-line/adb.html
+ 
+//To uninstall package (and apk)
+adb uninstall com.baudelaine.tdazlan
+//To install a new apk
+adb install demo1-<us|gb|de>.apk
+ 
+//adb usefull command
+//To list packages on device
+adb shell pm list packages | grep <part of package name>
+//To get package path
+adb shell pm path <package name display above>
+//To import apk
+adb pull <full path to apk display above>
+
